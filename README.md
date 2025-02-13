@@ -24,14 +24,14 @@
 
 ## 프로젝트 진행 과정  
 
-### 데이터 탐색 및 전처리  
+### 1) 데이터 탐색 및 전처리  
 - 총 20,507개의 거래 데이터 활용  
 - 주요 컬럼: `거래 ID`, `구매 상품명`, `거래 일시`, `구매 시간대`, `주중/주말 여부`  
 - 결측치는 존재하지 않으며, 모든 변수가 명목형이므로 이상값 처리 불필요  
 - 동일한 거래 ID 내에서 같은 상품이 반복될 경우 **구매 수량(Quantity) 컬럼 추가**  
 <br>
 
-### 구매량 및 시계열 데이터 분석  
+### 2) 구매량 및 시계열 데이터 분석  
 - **구매량 TOP 5 상품 분석**  
   - 커피의 구매량이 압도적으로 높음  
   - 빵, 패스트리, 케이크, 차가 그 뒤를 이음  
@@ -43,7 +43,7 @@
   - 점심 이후 (13시~15시) 케이크 및 차의 구매량 증가  
 <br>
 
-### 장바구니 분석 (FP-Growth Algorithm)  
+### 3) 장바구니 분석 (FP-Growth Algorithm)  
 - 고객 ID가 존재하지 않아 **Prefix 알고리즘 대신 FP-Growth 적용**  
 - 신뢰도를 0.2로 조정하여 다양한 연관 규칙 도출  
 - **상위 5개 연관 규칙:**  
@@ -79,6 +79,6 @@
 - 향후 **고객 세그먼트 분석을 추가하여 개인화 마케팅 전략 강화 가능**
 
 ---
-- 코드 확인 : [코드 보러가기](https://github.com/harrym8n/Proj_Creditcard_Data_Analysis/blob/main/credit_card_data_analysis.ipynb)
-- PDF 보고서 확인 : [PDF 보고서 보러가기](https://github.com/harrym8n/Proj_Creditcard_Data_Analysis/blob/main/credit_card_data_analysis_report.pdf)
+- 코드 확인 : [코드 보러가기]([https://github.com/harrym8n/Proj_Creditcard_Data_Analysis/blob/main/credit_card_data_analysis.ipynb](https://github.com/harrym8n/Proj_Bakery_DA/blob/main/Bakery_data_analysis.ipynb))
+- PDF 보고서 확인 : [PDF 보고서 보러가기]([https://github.com/harrym8n/Proj_Creditcard_Data_Analysis/blob/main/credit_card_data_analysis_report.pdf](https://github.com/harrym8n/Proj_Bakery_DA/blob/main/Bakery_data_analysis_report.pdf))
  
