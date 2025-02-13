@@ -79,6 +79,6 @@
 - 향후 **고객 세그먼트 분석을 추가하여 개인화 마케팅 전략 강화 가능**
 
 ---
-- 코드 확인 : [코드 보러가기]([https://github.com/harrym8n/Proj_Creditcard_Data_Analysis/blob/main/credit_card_data_analysis.ipynb](https://github.com/harrym8n/Proj_Bakery_DA/blob/main/Bakery_data_analysis.ipynb))
-- PDF 보고서 확인 : [PDF 보고서 보러가기]([https://github.com/harrym8n/Proj_Creditcard_Data_Analysis/blob/main/credit_card_data_analysis_report.pdf](https://github.com/harrym8n/Proj_Bakery_DA/blob/main/Bakery_data_analysis_report.pdf))
+- 코드 확인 : [코드 보러가기](https://github.com/harrym8n/Proj_Bakery_DA/blob/main/Bakery_data_analysis.ipynb)
+- PDF 보고서 확인 : [PDF 보고서 보러가기](https://github.com/harrym8n/Proj_Bakery_DA/blob/main/Bakery_data_analysis_report.pdf)
  
